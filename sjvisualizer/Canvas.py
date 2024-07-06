@@ -284,8 +284,8 @@ class canvas():
         :type str
         """
         from sjvisualizer import StaticImage
-        img = StaticImage.static_image(canvas=self.canvas, width=int(self.width/15), height=int(self.width/15), x_pos=self.width*0.95,
-                                           y_pos=self.height*0.00,
+        img = StaticImage.static_image(canvas=self.canvas, width=int(self.width/7), height=int(self.width/7), x_pos=self.width*0.90,
+                                           y_pos=self.height*0.00 - 30,
                                            file=logo, root=self.tk, anchor="ne")
         self.add_sub_plot(img)
 
